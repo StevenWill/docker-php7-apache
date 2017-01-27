@@ -2,7 +2,7 @@ version: '2'
 services:
   apache:
     build: .
-    image: zilleem-wb:latest
+    image: php7:latest
     volumes:
       - $PWD/html:/var/www/html
     ports:
